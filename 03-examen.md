@@ -1,135 +1,206 @@
-### PARTIE 1 — Commandes de base & navigation (1–5)
+<h2>Examen Linux — QCM (20 questions)</h2>
 
-**1) Quelle commande affiche le chemin du répertoire courant ?**
-A) `whoami`
-B) `pwd`
-C) `path`
-D) `where`
+<h3>PARTIE 1 — Commandes de base & navigation (1–5)</h3>
 
-**2) Quelle commande liste les fichiers avec détails (droits, taille, date) ?**
-A) `ls -a`
-B) `ls -l`
-C) `ls -h`
-D) `list`
+<p><strong>1) Quelle commande affiche le chemin du répertoire courant ?</strong><br>
+A) <code>whoami</code><br>
+B) <code>pwd</code><br>
+C) <code>path</code><br>
+D) <code>where</code></p>
 
-**3) Quelle commande permet de revenir au répertoire personnel (home) ?**
-A) `cd /home`
-B) `cd ..`
-C) `cd`
-D) `cd /`
+<p><strong>2) Quelle commande liste les fichiers avec détails (droits, taille, date) ?</strong><br>
+A) <code>ls -a</code><br>
+B) <code>ls -l</code><br>
+C) <code>ls -h</code><br>
+D) <code>list</code></p>
 
-**4) Quel symbole représente le répertoire parent ?**
-A) `.`
-B) `..`
-C) `~`
-D) `*`
+<p><strong>3) Quelle commande permet de revenir au répertoire personnel (home) ?</strong><br>
+A) <code>cd /home</code><br>
+B) <code>cd ..</code><br>
+C) <code>cd</code><br>
+D) <code>cd /</code></p>
 
-**5) Quelle commande crée un répertoire nommé `projet` ?**
-A) `touch projet`
-B) `mkdir projet`
-C) `mkfile projet`
-D) `newdir projet`
+<p><strong>4) Quel symbole représente le répertoire parent ?</strong><br>
+A) <code>.</code><br>
+B) <code>..</code><br>
+C) <code>~</code><br>
+D) <code>*</code></p>
 
----
+<p><strong>5) Quelle commande crée un répertoire nommé <code>projet</code> ?</strong><br>
+A) <code>touch projet</code><br>
+B) <code>mkdir projet</code><br>
+C) <code>mkfile projet</code><br>
+D) <code>newdir projet</code></p>
 
-### PARTIE 2 — Fichiers & permissions (6–10)
+<hr>
 
-**6) Quelle commande crée un fichier vide nommé `notes.txt` ?**
-A) `cat notes.txt`
-B) `touch notes.txt`
-C) `nano notes.txt`
-D) `mk notes.txt`
+<h3>PARTIE 2 — Fichiers & permissions (6–10)</h3>
 
-**7) Quelle commande affiche le contenu d’un fichier `log.txt` dans le terminal ?**
-A) `show log.txt`
-B) `cat log.txt`
-C) `open log.txt`
-D) `read log.txt`
+<p><strong>6) Quelle commande crée un fichier vide nommé <code>notes.txt</code> ?</strong><br>
+A) <code>cat notes.txt</code><br>
+B) <code>touch notes.txt</code><br>
+C) <code>nano notes.txt</code><br>
+D) <code>mk notes.txt</code></p>
 
-**8) Quelle commande change les permissions pour donner l’exécution au propriétaire sur `script.sh` ?**
-A) `chmod u+x script.sh`
-B) `chmod +r script.sh`
-C) `chmod g+x script.sh`
-D) `chown u+x script.sh`
+<p><strong>7) Quelle commande affiche le contenu de <code>log.txt</code> ?</strong><br>
+A) <code>show log.txt</code><br>
+B) <code>cat log.txt</code><br>
+C) <code>open log.txt</code><br>
+D) <code>read log.txt</code></p>
 
-**9) À quoi sert `chmod 644 fichier.txt` ?**
-A) Lecture/écriture/exécution pour tous
-B) Lecture/écriture pour propriétaire, lecture pour groupe et autres
-C) Lecture seule pour tout le monde
-D) Exécution pour propriétaire seulement
+<p><strong>8) Quelle commande copie <code>fichier1.txt</code> vers <code>fichier2.txt</code> ?</strong><br>
+A) <code>mv fichier1.txt fichier2.txt</code><br>
+B) <code>cp fichier1.txt fichier2.txt</code><br>
+C) <code>clone fichier1.txt fichier2.txt</code><br>
+D) <code>copy fichier1.txt fichier2.txt</code></p>
 
-**10) Quelle commande change le propriétaire d’un fichier `data.csv` vers l’utilisateur `dev` ?**
-A) `chmod dev data.csv`
-B) `chown dev data.csv`
-C) `usermod data.csv dev`
-D) `owner dev data.csv`
+<p><strong>9) Quelle commande déplace (ou renomme) <code>doc.txt</code> vers <code>archive/doc.txt</code> ?</strong><br>
+A) <code>cp doc.txt archive/doc.txt</code><br>
+B) <code>mv doc.txt archive/doc.txt</code><br>
+C) <code>rn doc.txt archive/doc.txt</code><br>
+D) <code>move doc.txt archive/doc.txt</code></p>
 
----
+<p><strong>10) Quelle commande donne l’exécution au propriétaire sur <code>script.sh</code> ?</strong><br>
+A) <code>chmod u+x script.sh</code><br>
+B) <code>chmod u+r script.sh</code><br>
+C) <code>chown u+x script.sh</code><br>
+D) <code>chmod g+x script.sh</code></p>
 
-### PARTIE 3 — Recherche & traitement de texte (11–15)
+<hr>
 
-**11) Quelle commande recherche le mot `error` dans `app.log` ?**
-A) `find error app.log`
-B) `grep error app.log`
-C) `search error app.log`
-D) `look error app.log`
+<h3>PARTIE 3 — Recherche & traitement de texte (11–15)</h3>
 
-**12) Quelle option de `grep` ignore la casse (maj/min) ?**
-A) `-c`
-B) `-n`
-C) `-i`
-D) `-v`
+<p><strong>11) Quelle commande recherche le mot <code>error</code> dans <code>app.log</code> ?</strong><br>
+A) <code>find error app.log</code><br>
+B) <code>grep error app.log</code><br>
+C) <code>search error app.log</code><br>
+D) <code>look error app.log</code></p>
 
-**13) Que fait `wc -l fichier.txt` ?**
-A) Compte les mots
-B) Compte les caractères
-C) Compte les lignes
-D) Affiche la dernière ligne
+<p><strong>12) Quelle option de <code>grep</code> ignore la casse (maj/min) ?</strong><br>
+A) <code>-n</code><br>
+B) <code>-i</code><br>
+C) <code>-v</code><br>
+D) <code>-w</code></p>
 
-**14) Quelle commande affiche les 10 premières lignes de `data.txt` ?**
-A) `head data.txt`
-B) `top data.txt`
-C) `first data.txt`
-D) `start data.txt`
+<p><strong>13) Quelle commande affiche uniquement le nombre de lignes de <code>fichier.txt</code> ?</strong><br>
+A) <code>wc -w fichier.txt</code><br>
+B) <code>wc -l fichier.txt</code><br>
+C) <code>wc -c fichier.txt</code><br>
+D) <code>count -l fichier.txt</code></p>
 
-**15) Quelle commande affiche les 10 dernières lignes de `data.txt` ?**
-A) `bottom data.txt`
-B) `tail data.txt`
-C) `last data.txt`
-D) `end data.txt`
+<p><strong>14) Quelle commande affiche les 10 premières lignes de <code>data.txt</code> ?</strong><br>
+A) <code>head data.txt</code><br>
+B) <code>top data.txt</code><br>
+C) <code>first data.txt</code><br>
+D) <code>start data.txt</code></p>
 
----
+<p><strong>15) Quelle commande affiche les 10 dernières lignes de <code>data.txt</code> ?</strong><br>
+A) <code>tail data.txt</code><br>
+B) <code>bottom data.txt</code><br>
+C) <code>last data.txt</code><br>
+D) <code>end data.txt</code></p>
 
-### PARTIE 4 — Processus, réseau, archivage (16–20)
+<hr>
 
-**16) Quelle commande affiche les processus en cours (vue “snapshot”) ?**
-A) `ps aux`
-B) `proc -list`
-C) `tasks`
-D) `jobs -all`
+<h3>PARTIE 4 — Système, processus, réseau, archivage (16–20)</h3>
 
-**17) Quelle commande affiche l’espace disque des systèmes de fichiers (format lisible) ?**
-A) `du -h`
-B) `df -h`
-C) `free -h`
-D) `disk -h`
+<p><strong>16) Quelle commande affiche les processus en cours (liste détaillée) ?</strong><br>
+A) <code>ps aux</code><br>
+B) <code>proc -list</code><br>
+C) <code>tasks</code><br>
+D) <code>jobs -all</code></p>
 
-**18) Quelle commande affiche l’utilisation mémoire (format lisible) ?**
-A) `free -h`
-B) `mem -h`
-C) `df -m`
-D) `ram -l`
+<p><strong>17) Quelle commande affiche l’espace disque des partitions (format lisible) ?</strong><br>
+A) <code>du -h</code><br>
+B) <code>df -h</code><br>
+C) <code>free -h</code><br>
+D) <code>disk -h</code></p>
 
-**19) Quelle commande crée une archive `backup.tar.gz` du dossier `projet/` ?**
-A) `zip backup.tar.gz projet/`
-B) `tar -czf backup.tar.gz projet/`
-C) `tar -xzf backup.tar.gz projet/`
-D) `gzip -cz projet/ > backup.tar.gz`
+<p><strong>18) Quelle commande affiche l’utilisation mémoire (RAM) (format lisible) ?</strong><br>
+A) <code>free -h</code><br>
+B) <code>mem -h</code><br>
+C) <code>df -m</code><br>
+D) <code>ram -l</code></p>
 
-**20) Quelle commande teste la connectivité vers `google.com` avec 4 paquets ?**
-A) `ping -c 4 google.com`
-B) `ping -n 4 google.com`
-C) `ping -t 4 google.com`
-D) `ping --4 google.com`
+<p><strong>19) Quelle commande crée une archive <code>backup.tar.gz</code> du dossier <code>projet/</code> ?</strong><br>
+A) <code>zip backup.tar.gz projet/</code><br>
+B) <code>tar -czf backup.tar.gz projet/</code><br>
+C) <code>tar -xzf backup.tar.gz projet/</code><br>
+D) <code>gzip -cz projet/ &gt; backup.tar.gz</code></p>
+
+<p><strong>20) Quelle commande teste la connectivité vers <code>google.com</code> avec 4 paquets ?</strong><br>
+A) <code>ping -c 4 google.com</code><br>
+B) <code>ping -n 4 google.com</code><br>
+C) <code>ping -t 4 google.com</code><br>
+D) <code>ping --4 google.com</code></p>
 
 
+
+
+<h3>PARTIE 5 — Listing & réseau (Q20 à Q30)</h3>
+
+<p><strong>20) Quelle commande affiche les fichiers, y compris cachés ?</strong><br>
+A) <code>ls</code><br>
+B) <code>ls -a</code><br>
+C) <code>ls -l</code><br>
+D) <code>ls -h</code></p>
+
+<p><strong>21) Quelle commande affiche les fichiers cachés ET des tailles lisibles (K, M, G) ?</strong><br>
+A) <code>ls -ah</code><br>
+B) <code>ls -lh</code><br>
+C) <code>ls -a</code><br>
+D) <code>ls -t</code></p>
+
+<p><strong>22) Quelle commande affiche une liste détaillée (permissions, propriétaire, taille, date) ?</strong><br>
+A) <code>ls -a</code><br>
+B) <code>ls -l</code><br>
+C) <code>ls -h</code><br>
+D) <code>ls -1</code></p>
+
+<p><strong>23) Quelle commande combine “liste détaillée” + “fichiers cachés” ?</strong><br>
+A) <code>ls -la</code><br>
+B) <code>ls -ah</code><br>
+C) <code>ls -hl</code><br>
+D) <code>ls -t</code></p>
+
+<p><strong>24) Quelle commande affiche une liste détaillée AVEC tailles lisibles (K, M, G) ?</strong><br>
+A) <code>ls -l</code><br>
+B) <code>ls -lh</code><br>
+C) <code>ls -ah</code><br>
+D) <code>ls -la</code></p>
+
+<p><strong>25) Quelle commande affiche les fichiers triés par date de modification (plus récents en premier) ?</strong><br>
+A) <code>ls -S</code><br>
+B) <code>ls -t</code><br>
+C) <code>ls -r</code><br>
+D) <code>ls -X</code></p>
+
+<p><strong>26) Quelle commande affiche les sockets (connexions) en écoute uniquement ?</strong><br>
+A) <code>ss -l</code><br>
+B) <code>ss -a</code><br>
+C) <code>ss -r</code><br>
+D) <code>ss -p</code></p>
+
+<p><strong>27) Que signifie l’option <code>-t</code> dans <code>ss</code> (ex: <code>ss -lt</code>) ?</strong><br>
+A) Afficher UDP<br>
+B) Afficher TCP<br>
+C) Afficher ICMP<br>
+D) Afficher ARP</p>
+
+<p><strong>28) Que signifie l’option <code>-u</code> dans <code>ss</code> (ex: <code>ss -lu</code>) ?</strong><br>
+A) Afficher TCP<br>
+B) Afficher UDP<br>
+C) Afficher UNIX only<br>
+D) Afficher utilisateurs connectés</p>
+
+<p><strong>29) Quelle commande affiche les ports TCP en écoute avec les numéros de ports en format numérique ?</strong><br>
+A) <code>ss -lt</code><br>
+B) <code>ss -ltn</code><br>
+C) <code>ss -lta</code><br>
+D) <code>ss -ltnr</code></p>
+
+<p><strong>30) Quelle commande affiche les ports TCP en écoute + format numérique + processus (PID/programme) qui écoute ?</strong><br>
+A) <code>ss -ltn</code><br>
+B) <code>ss -ltnp</code><br>
+C) <code>ss -ltnu</code><br>
+D) <code>ss -ltnr</code></p>
