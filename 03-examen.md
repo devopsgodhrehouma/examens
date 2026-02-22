@@ -1,5 +1,8 @@
 <h2>Examen Linux — QCM (20 questions)</h2>
 
+<p><strong>Note (aide autorisée) :</strong><br>
+Vous pouvez utiliser le site <code>explainshell.com</code> pour comprendre les options des commandes Linux (ex. <code>ls -lah</code>, <code>ss -ltnp</code>) et vérifier votre interprétation.</p>
+
 <h3>PARTIE 1 — Commandes de base & navigation (1–5)</h3>
 
 <p><strong>1) Quelle commande affiche le chemin du répertoire courant ?</strong><br>
