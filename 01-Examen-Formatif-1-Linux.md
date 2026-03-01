@@ -331,7 +331,7 @@ C) <code>logctl ssh</code><br>
 D) <code>syslog -u ssh</code>
 </p>
 
-
+</details>
 
 
 
