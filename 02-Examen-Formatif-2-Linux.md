@@ -2,6 +2,8 @@
 
 <h3>PARTIE 1 — Commandes de base &amp; navigation (1–10)</h3>
 
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+
 <p><strong>1) Quelle commande affiche l’utilisateur actuellement connecté ?</strong><br>
 A) <code>id</code><br>
 B) <code>whoami</code><br>
