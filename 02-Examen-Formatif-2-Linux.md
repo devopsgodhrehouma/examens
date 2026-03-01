@@ -73,11 +73,25 @@ B) <code>man ls</code><br>
 C) <code>info -h ls</code><br>
 D) <code>doc ls</code>
 </p>
+</details> 
 
 <hr>
 
+
+
+
+
+
+
+
+
+
+
+
 <h3>PARTIE 2 — Permissions &amp; fichiers (11–20)</h3>
 
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+  
 <p><strong>11) Dans <code>-rw-r--r--</code>, que signifie le premier <code>-</code> ?</strong><br>
 A) lien symbolique<br>
 B) fichier ordinaire<br>
@@ -147,10 +161,17 @@ B) <code>head -n 3 data.txt</code><br>
 C) <code>less -n 3 data.txt</code><br>
 D) <code>cat -n 3 data.txt</code>
 </p>
+</details> 
 
 <hr>
 
+
+
+
+
 <h3>PARTIE 3 — Redirections, pipes &amp; recherche (21–30)</h3>
+
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
 
 <p><strong>21) Quelle commande redirige la sortie standard de <code>ls</code> vers <code>liste.txt</code> (écrase) ?</strong><br>
 A) <code>ls &gt;&gt; liste.txt</code><br>
@@ -221,11 +242,18 @@ B) <code>tail -n 20 audit.log</code><br>
 C) <code>less -n 20 audit.log</code><br>
 D) <code>cat -n 20 audit.log</code>
 </p>
+</details> 
 
 <hr>
 
+
+
+
+
 <h3>PARTIE 4 — Processus, système, réseau &amp; services (31–40)</h3>
 
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+  
 <p><strong>31) Quelle commande affiche les processus en temps réel avec rafraîchissement ?</strong><br>
 A) <code>ps</code><br>
 B) <code>top</code><br>
@@ -295,3 +323,5 @@ B) <code>syslog -last</code><br>
 C) <code>dmesg -u</code><br>
 D) <code>logread -x</code>
 </p>
+
+</details> 
