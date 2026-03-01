@@ -91,7 +91,7 @@ D) <code>doc ls</code>
 
 <h3>PARTIE 2 — Permissions &amp; fichiers (11–20)</h3>
 
-<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+<details> <summary> PARTIE 2 — Permissions &amp; fichiers (11–20)  </summary>
   
 <p><strong>11) Dans <code>-rw-r--r--</code>, que signifie le premier <code>-</code> ?</strong><br>
 A) lien symbolique<br>
@@ -173,7 +173,7 @@ D) <code>cat -n 3 data.txt</code>
 
 <h3>PARTIE 3 — Redirections, pipes &amp; recherche (21–30)</h3>
 
-<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+<details> <summary> PARTIE 3 — Redirections, pipes &amp; recherche (21–30)  </summary>
 
 <p><strong>21) Quelle commande redirige la sortie standard de <code>ls</code> vers <code>liste.txt</code> (écrase) ?</strong><br>
 A) <code>ls &gt;&gt; liste.txt</code><br>
@@ -254,7 +254,7 @@ D) <code>cat -n 20 audit.log</code>
 
 <h3>PARTIE 4 — Processus, système, réseau &amp; services (31–40)</h3>
 
-<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+<details> <summary> PARTIE 4 — Processus, système, réseau &amp; services (31–40) </summary>
   
 <p><strong>31) Quelle commande affiche les processus en temps réel avec rafraîchissement ?</strong><br>
 A) <code>ps</code><br>
