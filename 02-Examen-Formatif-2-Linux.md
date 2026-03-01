@@ -73,6 +73,7 @@ B) <code>man ls</code><br>
 C) <code>info -h ls</code><br>
 D) <code>doc ls</code>
 </p>
+
 </details> 
 
 <hr>
@@ -162,6 +163,7 @@ C) <code>less -n 3 data.txt</code><br>
 D) <code>cat -n 3 data.txt</code>
 </p>
 </details> 
+
 
 <hr>
 
