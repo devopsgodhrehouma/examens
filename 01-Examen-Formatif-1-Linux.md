@@ -75,7 +75,17 @@ D) <code>nano -p</code>
 
 <hr>
 
+
+
+
+
+
+
+
+
 <h3>PARTIE 2 — Permissions &amp; fichiers (11–20)</h3>
+
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary></details>
 
 <p><strong>11) Que signifie le premier caractère <code>d</code> dans <code>drwxr-xr-x</code> ?</strong><br>
 A) fichier exécutable<br>
@@ -147,9 +157,18 @@ C) <code>compare a.txt b.txt</code><br>
 D) <code>cut a.txt b.txt</code>
 </p>
 
+
+
+
+
+
+
+
 <hr>
 
 <h3>PARTIE 3 — Redirections, pipes &amp; recherche (21–30)</h3>
+
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary></details>
 
 <p><strong>21) Que fait <code>&gt;</code> en shell ?</strong><br>
 A) ajoute à la fin<br>
@@ -223,7 +242,20 @@ D) <code>cat -n 5</code>
 
 <hr>
 
+
+
+
+
+
+
+
+
+
+
 <h3>PARTIE 4 — Processus, système, réseau &amp; services (31–40)</h3>
+
+
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary></details>
 
 <p><strong>31) Quelle commande affiche les processus en cours ?</strong><br>
 A) <code>ps</code><br>
