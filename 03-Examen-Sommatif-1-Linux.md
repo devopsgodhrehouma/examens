@@ -5,6 +5,8 @@ Vous pouvez utiliser le site <code>explainshell.com</code> pour comprendre les o
 
 <h3>PARTIE 1 — Commandes de base & navigation (1–5)</h3>
 
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+
 <p><strong>1) Quelle commande affiche le chemin du répertoire courant ?</strong><br>
 A) <code>whoami</code><br>
 B) <code>pwd</code><br>
@@ -35,9 +37,19 @@ B) <code>mkdir projet</code><br>
 C) <code>mkfile projet</code><br>
 D) <code>newdir projet</code></p>
 
+</details>
+
 <hr>
 
+
+
+
+
+
+
 <h3>PARTIE 2 — Fichiers & permissions (6–10)</h3>
+
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
 
 <p><strong>6) Quelle commande crée un fichier vide nommé <code>notes.txt</code> ?</strong><br>
 A) <code>cat notes.txt</code><br>
@@ -69,10 +81,14 @@ B) <code>chmod u+r script.sh</code><br>
 C) <code>chown u+x script.sh</code><br>
 D) <code>chmod g+x script.sh</code></p>
 
+</details>
+
 <hr>
 
 <h3>PARTIE 3 — Recherche & traitement de texte (11–15)</h3>
 
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+  
 <p><strong>11) Quelle commande recherche le mot <code>error</code> dans <code>app.log</code> ?</strong><br>
 A) <code>find error app.log</code><br>
 B) <code>grep error app.log</code><br>
@@ -103,9 +119,17 @@ B) <code>bottom data.txt</code><br>
 C) <code>last data.txt</code><br>
 D) <code>end data.txt</code></p>
 
+
+</details>
+
+
+
+
+
 <hr>
 
 <h3>PARTIE 4 — Système, processus, réseau, archivage (16–20)</h3>
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
 
 <p><strong>16) Quelle commande affiche les processus en cours (liste détaillée) ?</strong><br>
 A) <code>ps aux</code><br>
@@ -136,12 +160,17 @@ A) <code>ping -c 4 google.com</code><br>
 B) <code>ping -n 4 google.com</code><br>
 C) <code>ping -t 4 google.com</code><br>
 D) <code>ping --4 google.com</code></p>
+</details>
 
 
+
+<hr>
 
 
 <h3>PARTIE 5 — Listing & réseau (Q20 à Q30)</h3>
 
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary>
+  
 <p><strong>20) Quelle commande affiche les fichiers, y compris cachés ?</strong><br>
 A) <code>ls</code><br>
 B) <code>ls -a</code><br>
@@ -207,3 +236,6 @@ A) <code>ss -ltn</code><br>
 B) <code>ss -ltnp</code><br>
 C) <code>ss -ltnu</code><br>
 D) <code>ss -ltnr</code></p>
+</details>
+
+
