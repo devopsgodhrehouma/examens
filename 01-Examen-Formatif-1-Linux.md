@@ -2,6 +2,7 @@
 
 <h3>PARTIE 1 — Commandes de base &amp; navigation (1–10)</h3>
 
+<details> <summary> PARTIE 1 — Commandes de base &amp; navigation (1–10)  </summary></details>
 <p><strong>1) Quelle commande affiche le chemin du répertoire courant ?</strong><br>
 A) <code>whoami</code><br>
 B) <code>pwd</code><br>
