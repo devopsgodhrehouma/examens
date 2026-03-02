@@ -1,4 +1,4 @@
-<h2>Examen AWS Lambda — QCM (30 questions)</h2>
+<h2>Examen Formatif AWS Lambda — QCM (30 questions)</h2>
 
 <p><strong>Note (aide autorisée) :</strong><br>
 Vous pouvez consulter la documentation officielle AWS (Lambda, IAM, CloudWatch, API Gateway, SQS, SNS, EventBridge) pour valider les options, syntaxes et bonnes pratiques (triggers, permissions, timeout, mémoire, logs, variables d’environnement, VPC, etc.).</p>
