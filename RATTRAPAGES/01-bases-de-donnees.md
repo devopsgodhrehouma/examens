@@ -6,9 +6,9 @@
 
 ## Consignes générales
 
-* Répondez aux 20 questions.
-* Pour chaque question, cochez une seule bonne réponse.
-* Aucune documentation n’est autorisée.
+Répondez aux 20 questions.
+Pour chaque question, cochez une seule bonne réponse.
+Aucune documentation n’est autorisée.
 
 ---
 
@@ -17,8 +17,11 @@
 PostgreSQL est :
 
 A. Un système d’exploitation
+
 B. Un SGBD relationnel
+
 C. Un navigateur web
+
 D. Un langage de programmation
 
 ---
@@ -28,8 +31,11 @@ D. Un langage de programmation
 Une table dans une base de données sert à :
 
 A. Stocker des données en lignes et colonnes
+
 B. Exécuter des programmes
+
 C. Créer un réseau
+
 D. Dessiner des graphiques
 
 ---
@@ -39,8 +45,11 @@ D. Dessiner des graphiques
 Une clé primaire permet de :
 
 A. Trier les lignes
+
 B. Identifier chaque ligne de manière unique
+
 C. Renommer une table
+
 D. Supprimer les doublons automatiquement partout
 
 ---
@@ -50,8 +59,11 @@ D. Supprimer les doublons automatiquement partout
 Une clé étrangère sert à :
 
 A. Relier deux tables
+
 B. Supprimer une colonne
+
 C. Ajouter un utilisateur
+
 D. Sauvegarder une base de données
 
 ---
@@ -61,8 +73,11 @@ D. Sauvegarder une base de données
 Quel type est le plus approprié pour stocker un âge ?
 
 A. VARCHAR
+
 B. DATE
+
 C. INTEGER
+
 D. BOOLEAN
 
 ---
@@ -72,8 +87,11 @@ D. BOOLEAN
 Quel type est le plus adapté pour stocker un nom complet ?
 
 A. BOOLEAN
+
 B. VARCHAR
+
 C. INTEGER
+
 D. DATE
 
 ---
@@ -83,8 +101,11 @@ D. DATE
 Quelle commande permet de créer une table ?
 
 A. BUILD TABLE
+
 B. NEW TABLE
+
 C. CREATE TABLE
+
 D. MAKE TABLE
 
 ---
@@ -94,8 +115,11 @@ D. MAKE TABLE
 Quelle commande permet de supprimer une table ?
 
 A. DELETE TABLE
+
 B. REMOVE TABLE
+
 C. DROP TABLE
+
 D. CLEAR TABLE
 
 ---
@@ -105,8 +129,11 @@ D. CLEAR TABLE
 Quelle commande permet d’ajouter des données dans une table ?
 
 A. INSERT INTO
+
 B. PUT INTO
+
 C. ADD ROW
+
 D. APPEND INTO
 
 ---
@@ -116,8 +143,11 @@ D. APPEND INTO
 Quelle commande permet de lire les données d’une table ?
 
 A. SHOW
+
 B. GET
+
 C. SELECT
+
 D. OPEN
 
 ---
@@ -127,8 +157,11 @@ D. OPEN
 Quelle commande permet de modifier des données existantes ?
 
 A. CHANGE
+
 B. UPDATE
+
 C. ALTER ROW
+
 D. MODIFY DATA
 
 ---
@@ -138,19 +171,25 @@ D. MODIFY DATA
 Quelle commande permet de supprimer certaines lignes d’une table ?
 
 A. REMOVE
+
 B. DELETE
+
 C. DROP
+
 D. ERASE
 
 ---
 
 ### Question 13
 
-Que se passe-t-il si on exécute `DELETE` sans clause `WHERE` ?
+Que se passe-t-il si on exécute DELETE sans clause WHERE ?
 
 A. Une seule ligne est supprimée
+
 B. Rien ne se passe
+
 C. Toutes les lignes sont supprimées
+
 D. Seules les lignes NULL sont supprimées
 
 ---
@@ -160,8 +199,11 @@ D. Seules les lignes NULL sont supprimées
 Quelle clause permet de filtrer les résultats d’une requête ?
 
 A. ORDER BY
+
 B. WHERE
+
 C. GROUP BY
+
 D. LIMIT
 
 ---
@@ -171,8 +213,11 @@ D. LIMIT
 Quelle clause permet de trier les résultats ?
 
 A. SORT BY
+
 B. FILTER BY
+
 C. ORDER BY
+
 D. GROUP BY
 
 ---
@@ -182,8 +227,11 @@ D. GROUP BY
 Quelle fonction permet de compter le nombre de lignes ?
 
 A. SUM()
+
 B. TOTAL()
+
 C. COUNT()
+
 D. AVG()
 
 ---
@@ -193,8 +241,11 @@ D. AVG()
 Quelle fonction permet de calculer la moyenne d’une colonne numérique ?
 
 A. AVG()
+
 B. MEAN()
+
 C. COUNT()
+
 D. MAX()
 
 ---
@@ -204,8 +255,11 @@ D. MAX()
 Une jointure sert à :
 
 A. Supprimer une table
+
 B. Relier les données de plusieurs tables
+
 C. Renommer une colonne
+
 D. Sauvegarder la base
 
 ---
@@ -215,18 +269,24 @@ D. Sauvegarder la base
 Quelle jointure retourne seulement les lignes correspondantes dans les deux tables ?
 
 A. LEFT JOIN
+
 B. RIGHT JOIN
+
 C. INNER JOIN
+
 D. FULL JOIN
 
 ---
 
 ### Question 20
 
-La commande `COMMIT` permet de :
+La commande COMMIT permet de :
 
 A. Annuler une transaction
+
 B. Valider définitivement une transaction
+
 C. Supprimer une base de données
+
 D. Créer un index
 
