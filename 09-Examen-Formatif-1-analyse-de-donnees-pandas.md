@@ -1689,5 +1689,3 @@ L’analyse du dataset Titanic met en évidence plusieurs facteurs fortement li�
 * Une version exportée en **`.pdf`**
 * Le fichier **CSV transformé** exporté à la fin de l’examen
 
-
-```
