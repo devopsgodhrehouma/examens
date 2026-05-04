@@ -28,9 +28,12 @@ Lien des données :
 
 [https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbXhyb2ZaWmxaLXdoTUlnUzlXSlM3QndTZkhCYnc_ZT0wejNuUW4&id=B09F9559F6A16B6C!74016&cid=B09F9559F6A16B6C](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbXhyb2ZaWmxaLXdoTUlnUzlXSlM3QndTZkhCYnc_ZT0wejNuUW4&id=B09F9559F6A16B6C!74016&cid=B09F9559F6A16B6C)
 
----
+<br/>
 
-# 1. Comprendre le rôle de DAX dans Power BI
+
+
+<details> 
+<summary> # 1. Comprendre le rôle de DAX dans Power BI  </summary>
 
 DAX signifie **Data Analysis Expressions**. C’est le langage de calcul utilisé dans Power BI pour créer des formules, des indicateurs, des mesures, des colonnes calculées et des analyses dynamiques.
 
@@ -76,7 +79,7 @@ Mais dans Power BI, ce calcul peut changer automatiquement selon le contexte :
 
 C’est l’une des grandes forces de DAX : une même mesure peut donner des résultats différents selon les filtres appliqués dans le rapport.
 
----
+</details>
 
 # 2. Comprendre la notion de table de faits
 
