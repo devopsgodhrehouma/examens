@@ -33,8 +33,7 @@ Lien des données :
 
  # 1. Comprendre le rôle de DAX dans Power BI 
  
-<details> 
-<summary> Expliquer le rôle de DAX dans la construction de tableaux de bord Power BI </summary>
+Expliquer le rôle de DAX dans la construction de tableaux de bord Power BI 
 
 DAX signifie **Data Analysis Expressions**. C’est le langage de calcul utilisé dans Power BI pour créer des formules, des indicateurs, des mesures, des colonnes calculées et des analyses dynamiques.
 
@@ -80,7 +79,7 @@ Mais dans Power BI, ce calcul peut changer automatiquement selon le contexte :
 
 C’est l’une des grandes forces de DAX : une même mesure peut donner des résultats différents selon les filtres appliqués dans le rapport.
 
-</details>
+
 
 # 2. Comprendre la notion de table de faits
 
