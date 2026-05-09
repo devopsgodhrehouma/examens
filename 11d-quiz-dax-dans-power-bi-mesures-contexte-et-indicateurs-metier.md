@@ -6,10 +6,10 @@ Dans un rapport Power BI, une équipe souhaite aller au-delà de l’affichage s
 
 Quel est le rôle principal de DAX dans cette situation ?
 
-A. Nettoyer les colonnes avant le chargement des données
-B. Créer des visualisations automatiquement sans modèle de données
-C. Calculer des indicateurs analytiques à partir du modèle de données
-D. Remplacer complètement Power Query dans la préparation des données
+- A. Nettoyer les colonnes avant le chargement des données
+- B. Créer des visualisations automatiquement sans modèle de données
+- C. Calculer des indicateurs analytiques à partir du modèle de données
+- D. Remplacer complètement Power Query dans la préparation des données
 
 ---
 
@@ -19,10 +19,10 @@ Une personne crée un rapport Power BI à partir d’un fichier Excel contenant 
 
 Comment peut-on qualifier ce type de calcul ?
 
-A. Une mesure implicite
-B. Une table calculée
-C. Une relation entre tables
-D. Une mesure temporelle avancée
+- A. Une mesure implicite
+- B. Une table calculée
+- C. Une relation entre tables
+- D. Une mesure temporelle avancée
 
 ---
 
@@ -32,10 +32,10 @@ Un rapport affiche les ventes par produit, mais il ne calcule pas la marge, le t
 
 Quelle est la principale limite de ce rapport ?
 
-A. Il contient trop de mesures explicites
-B. Il affiche des données, mais ne produit pas encore une analyse métier complète
-C. Il utilise trop de relations entre les tables
-D. Il contient nécessairement une erreur dans Power Query
+- A. Il contient trop de mesures explicites
+- B. Il affiche des données, mais ne produit pas encore une analyse métier complète
+- C. Il utilise trop de relations entre les tables
+- D. Il contient nécessairement une erreur dans Power Query
 
 ---
 
@@ -45,10 +45,10 @@ Une table contient les colonnes `Quantité` et `PrixUnitaire`. Le chiffre d’af
 
 Quelle formule représente correctement le calcul du chiffre d’affaires ligne par ligne ?
 
-A. Quantité + PrixUnitaire
-B. Quantité - PrixUnitaire
-C. Quantité × PrixUnitaire
-D. Quantité / PrixUnitaire
+- A. Quantité + PrixUnitaire
+- B. Quantité - PrixUnitaire
+- C. Quantité × PrixUnitaire
+- D. Quantité / PrixUnitaire
 
 ---
 
@@ -58,10 +58,10 @@ Une colonne de dates est importée sous forme de texte et doit être convertie e
 
 Quel outil est le plus approprié pour cette transformation ?
 
-A. DAX
-B. Power Query
-C. Une mesure rapide
-D. Un graphique en barres
+- A. DAX
+- B. Power Query
+- C. Une mesure rapide
+- D. Un graphique en barres
 
 ---
 
@@ -71,10 +71,10 @@ Une table `Ventes` contient `ProduitID`, et une table `Produits` contient aussi 
 
 Dans Power BI, cette opération relève principalement de quoi ?
 
-A. La création d’une relation dans le modèle de données
-B. La création d’une mesure implicite
-C. La création d’un segment visuel
-D. La modification du format monétaire
+- A. La création d’une relation dans le modèle de données
+- B. La création d’une mesure implicite
+- C. La création d’un segment visuel
+- D. La modification du format monétaire
 
 ---
 
@@ -82,10 +82,10 @@ D. La modification du format monétaire
 
 Dans une architecture Power BI bien structurée, quel est l’enchaînement le plus logique ?
 
-A. DAX → Power Query → Visualisations → Modèle de données
-B. Sources de données → Power Query → Modèle de données → DAX → Visualisations
-C. Visualisations → DAX → Power Query → Sources de données
-D. Modèle de données → Sources de données → DAX → Power Query
+- A. DAX → Power Query → Visualisations → Modèle de données
+- B. Sources de données → Power Query → Modèle de données → DAX → Visualisations
+- C. Visualisations → DAX → Power Query → Sources de données
+- D. Modèle de données → Sources de données → DAX → Power Query
 
 ---
 
@@ -93,10 +93,10 @@ D. Modèle de données → Sources de données → DAX → Power Query
 
 Que signifie DAX ?
 
-A. Data Automatic Exchange
-B. Data Analysis Expressions
-C. Digital Analytics Extension
-D. Database Access Explorer
+- A. Data Automatic Exchange
+- B. Data Analysis Expressions
+- C. Digital Analytics Extension
+- D. Database Access Explorer
 
 ---
 
@@ -106,10 +106,10 @@ Une direction souhaite connaître l’écart entre les ventes réelles et le bud
 
 Pourquoi DAX est-il utile dans ce cas ?
 
-A. Il permet de supprimer les lignes vides dans la source
-B. Il permet de créer un calcul métier entre deux indicateurs
-C. Il permet de remplacer toutes les visualisations Power BI
-D. Il permet uniquement de modifier la couleur des graphiques
+- A. Il permet de supprimer les lignes vides dans la source
+- B. Il permet de créer un calcul métier entre deux indicateurs
+- C. Il permet de remplacer toutes les visualisations Power BI
+- D. Il permet uniquement de modifier la couleur des graphiques
 
 ---
 
@@ -117,10 +117,10 @@ D. Il permet uniquement de modifier la couleur des graphiques
 
 Quelle phrase décrit le mieux la différence entre un rapport descriptif et un rapport analytique ?
 
-A. Un rapport descriptif utilise uniquement des graphiques rouges, alors qu’un rapport analytique utilise des graphiques bleus
-B. Un rapport descriptif affiche des données, alors qu’un rapport analytique calcule et interprète des indicateurs
-C. Un rapport analytique ne peut pas contenir de tableaux
-D. Un rapport descriptif nécessite toujours plus de DAX qu’un rapport analytique
+- A. Un rapport descriptif utilise uniquement des graphiques rouges, alors qu’un rapport analytique utilise des graphiques bleus
+- B. Un rapport descriptif affiche des données, alors qu’un rapport analytique calcule et interprète des indicateurs
+- C. Un rapport analytique ne peut pas contenir de tableaux
+- D. Un rapport descriptif nécessite toujours plus de DAX qu’un rapport analytique
 
 ---
 
@@ -128,10 +128,10 @@ D. Un rapport descriptif nécessite toujours plus de DAX qu’un rapport analyti
 
 Quelle formule représente une mesure explicite correctement définie dans Power BI ?
 
-A. `TotalVentes = SUM(Ventes[Montant])`
-B. `Somme automatique dans une carte`
-C. `Ventes[Montant]`
-D. `Importer un fichier CSV`
+- A. `TotalVentes = SUM(Ventes[Montant])`
+- B. `Somme automatique dans une carte`
+- C. `Ventes[Montant]`
+- D. `Importer un fichier CSV`
 
 ---
 
@@ -141,10 +141,10 @@ Une colonne numérique est glissée dans un visuel, et Power BI applique automat
 
 De quel type de mesure s’agit-il ?
 
-A. Mesure explicite
-B. Mesure implicite
-C. Table calculée
-D. Colonne relationnelle
+- A. Mesure explicite
+- B. Mesure implicite
+- C. Table calculée
+- D. Colonne relationnelle
 
 ---
 
@@ -154,10 +154,10 @@ Une personne utilise l’interface de Power BI pour générer automatiquement un
 
 Comment appelle-t-on généralement ce type de mesure ?
 
-A. Une mesure rapide
-B. Une colonne importée
-C. Une clé primaire
-D. Une table de faits
+- A. Une mesure rapide
+- B. Une colonne importée
+- C. Une clé primaire
+- D. Une table de faits
 
 ---
 
@@ -165,10 +165,10 @@ D. Une table de faits
 
 Dans un rapport Power BI professionnel, quelle pratique est généralement recommandée ?
 
-A. Utiliser uniquement les mesures implicites
-B. Créer des mesures explicites avec des noms clairs
-C. Éviter complètement DAX
-D. Mettre tous les calculs dans les titres des graphiques
+- A. Utiliser uniquement les mesures implicites
+- B. Créer des mesures explicites avec des noms clairs
+- C. Éviter complètement DAX
+- D. Mettre tous les calculs dans les titres des graphiques
 
 ---
 
@@ -178,10 +178,10 @@ Une formule DAX crée une nouvelle colonne dans la table `Ventes` pour calculer 
 
 De quel objet DAX s’agit-il ?
 
-A. Une mesure
-B. Une colonne calculée
-C. Une table calculée
-D. Une relation inactive
+- A. Une mesure
+- B. Une colonne calculée
+- C. Une table calculée
+- D. Une relation inactive
 
 ---
 
@@ -191,10 +191,10 @@ Une formule DAX crée une nouvelle table contenant uniquement les produits dont 
 
 De quel objet DAX s’agit-il ?
 
-A. Une table calculée
-B. Une mesure implicite
-C. Un segment
-D. Une moyenne automatique
+- A. Une table calculée
+- B. Une mesure implicite
+- C. Un segment
+- D. Une moyenne automatique
 
 ---
 
@@ -202,10 +202,10 @@ D. Une moyenne automatique
 
 Pourquoi une mesure est-elle considérée comme dynamique ?
 
-A. Parce qu’elle est toujours stockée ligne par ligne dans la table
-B. Parce qu’elle change selon les filtres, les segments et les visuels
-C. Parce qu’elle remplace les relations du modèle
-D. Parce qu’elle ne peut être utilisée que dans Power Query
+- A. Parce qu’elle est toujours stockée ligne par ligne dans la table
+- B. Parce qu’elle change selon les filtres, les segments et les visuels
+- C. Parce qu’elle remplace les relations du modèle
+- D. Parce qu’elle ne peut être utilisée que dans Power Query
 
 ---
 
@@ -215,10 +215,10 @@ On souhaite créer un indicateur `TotalVentes` qui doit changer selon l’année
 
 Quel objet faut-il privilégier ?
 
-A. Une mesure
-B. Une colonne calculée
-C. Une table calculée sans relation
-D. Une colonne texte dans Power Query
+- A. Une mesure
+- B. Une colonne calculée
+- C. Une table calculée sans relation
+- D. Une colonne texte dans Power Query
 
 ---
 
@@ -228,10 +228,10 @@ On souhaite créer une valeur fixe pour chaque ligne d’une table, par exemple 
 
 Quel objet DAX est le plus adapté ?
 
-A. Une colonne calculée
-B. Une mesure rapide uniquement
-C. Une visualisation cartographique
-D. Une relation plusieurs-à-plusieurs
+- A. Une colonne calculée
+- B. Une mesure rapide uniquement
+- C. Une visualisation cartographique
+- D. Une relation plusieurs-à-plusieurs
 
 ---
 
@@ -239,10 +239,10 @@ D. Une relation plusieurs-à-plusieurs
 
 Quelle affirmation est correcte ?
 
-A. Une mesure ajoute toujours une colonne physique dans une table
-B. Une colonne calculée réagit toujours aux segments comme une mesure
-C. Une mesure est évaluée selon le contexte du rapport
-D. Une table calculée est identique à un graphique
+- A. Une mesure ajoute toujours une colonne physique dans une table
+- B. Une colonne calculée réagit toujours aux segments comme une mesure
+- C. Une mesure est évaluée selon le contexte du rapport
+- D. Une table calculée est identique à un graphique
 
 ---
 
@@ -252,10 +252,10 @@ Une mesure `TotalVentes = SUM(Ventes[Montant])` affiche des résultats différen
 
 Quelle notion explique ce comportement ?
 
-A. Le contexte de filtre
-B. Le nettoyage automatique
-C. La suppression des doublons
-D. Le format de devise
+- A. Le contexte de filtre
+- B. Le nettoyage automatique
+- C. La suppression des doublons
+- D. Le format de devise
 
 ---
 
@@ -265,10 +265,10 @@ Une colonne calculée évalue `Ventes[Quantité] * Ventes[PrixUnitaire]` pour ch
 
 Quelle notion DAX est principalement utilisée ici ?
 
-A. Le contexte de ligne
-B. Le contexte de rapport uniquement
-C. Le format conditionnel
-D. Le type de graphique
+- A. Le contexte de ligne
+- B. Le contexte de rapport uniquement
+- C. Le format conditionnel
+- D. Le type de graphique
 
 ---
 
@@ -278,10 +278,10 @@ La même mesure `TotalVentes` affiche 100 000 dans une carte, puis 40 000 pour M
 
 Pourquoi ?
 
-A. Parce que la formule DAX est automatiquement modifiée
-B. Parce que le contexte de calcul change selon le visuel
-C. Parce que Power Query recalcule la table à chaque clic
-D. Parce que les mesures ne sont pas fiables
+- A. Parce que la formule DAX est automatiquement modifiée
+- B. Parce que le contexte de calcul change selon le visuel
+- C. Parce que Power Query recalcule la table à chaque clic
+- D. Parce que les mesures ne sont pas fiables
 
 ---
 
@@ -291,10 +291,10 @@ Un utilisateur sélectionne l’année 2025 dans un segment. Les mesures du rapp
 
 Quel concept explique cette réaction ?
 
-A. Le contexte de filtre
-B. La table calculée
-C. La suppression des colonnes
-D. La fusion des requêtes
+- A. Le contexte de filtre
+- B. La table calculée
+- C. La suppression des colonnes
+- D. La fusion des requêtes
 
 ---
 
@@ -302,10 +302,10 @@ D. La fusion des requêtes
 
 Quel est le rôle principal de la fonction `CALCULATE` ?
 
-A. Modifier le contexte de filtre d’un calcul
-B. Importer des fichiers Excel
-C. Créer automatiquement des graphiques
-D. Supprimer les relations entre tables
+- A. Modifier le contexte de filtre d’un calcul
+- B. Importer des fichiers Excel
+- C. Créer automatiquement des graphiques
+- D. Supprimer les relations entre tables
 
 ---
 
@@ -321,10 +321,10 @@ CALCULATE(
 )
 ```
 
-A. Elle supprime toutes les ventes de Montréal
-B. Elle calcule les ventes uniquement dans le contexte de Montréal
-C. Elle transforme Montréal en colonne calculée
-D. Elle crée une nouvelle table appelée Montréal
+- A. Elle supprime toutes les ventes de Montréal
+- B. Elle calcule les ventes uniquement dans le contexte de Montréal
+- C. Elle transforme Montréal en colonne calculée
+- D. Elle crée une nouvelle table appelée Montréal
 
 ---
 
@@ -332,10 +332,10 @@ D. Elle crée une nouvelle table appelée Montréal
 
 À quoi sert la fonction `SUM` ?
 
-A. Additionner les valeurs d’une colonne numérique
-B. Compter uniquement les valeurs distinctes
-C. Diviser deux mesures avec gestion des erreurs
-D. Retirer tous les filtres du rapport
+- A. Additionner les valeurs d’une colonne numérique
+- B. Compter uniquement les valeurs distinctes
+- C. Diviser deux mesures avec gestion des erreurs
+- D. Retirer tous les filtres du rapport
 
 ---
 
@@ -343,10 +343,10 @@ D. Retirer tous les filtres du rapport
 
 À quoi sert la fonction `AVERAGE` ?
 
-A. Calculer une moyenne
-B. Créer une table de dates
-C. Supprimer les valeurs vides
-D. Modifier une relation entre tables
+- A. Calculer une moyenne
+- B. Créer une table de dates
+- C. Supprimer les valeurs vides
+- D. Modifier une relation entre tables
 
 ---
 
@@ -356,10 +356,10 @@ Dans une table de ventes, un même client peut apparaître plusieurs fois. On so
 
 Quelle fonction est la plus appropriée ?
 
-A. COUNT
-B. SUM
-C. DISTINCTCOUNT
-D. AVERAGE
+- A. COUNT
+- B. SUM
+- C. DISTINCTCOUNT
+- D. AVERAGE
 
 ---
 
@@ -367,10 +367,10 @@ D. AVERAGE
 
 Pourquoi recommande-t-on souvent `DIVIDE` au lieu de l’opérateur `/` pour les ratios ?
 
-A. Parce que `DIVIDE` permet de mieux gérer les divisions par zéro
-B. Parce que `/` ne fonctionne jamais dans DAX
-C. Parce que `DIVIDE` sert à créer des relations
-D. Parce que `DIVIDE` transforme automatiquement les dates
+- A. Parce que `DIVIDE` permet de mieux gérer les divisions par zéro
+- B. Parce que `/` ne fonctionne jamais dans DAX
+- C. Parce que `DIVIDE` sert à créer des relations
+- D. Parce que `DIVIDE` transforme automatiquement les dates
 
 ---
 
@@ -378,10 +378,10 @@ D. Parce que `DIVIDE` transforme automatiquement les dates
 
 Que fait la fonction `SUMX` ?
 
-A. Elle additionne directement une colonne existante sans calcul intermédiaire
-B. Elle parcourt une table ligne par ligne, calcule une expression, puis additionne les résultats
-C. Elle supprime les filtres d’une colonne
-D. Elle crée automatiquement un graphique combiné
+- A. Elle additionne directement une colonne existante sans calcul intermédiaire
+- B. Elle parcourt une table ligne par ligne, calcule une expression, puis additionne les résultats
+- C. Elle supprime les filtres d’une colonne
+- D. Elle crée automatiquement un graphique combiné
 
 ---
 
@@ -391,10 +391,10 @@ Une table contient `Quantité` et `PrixUnitaire`, mais pas de colonne `Montant`.
 
 Quelle fonction est la plus appropriée ?
 
-A. SUMX
-B. DISTINCTCOUNT
-C. COUNTA
-D. ALL uniquement
+- A. SUMX
+- B. DISTINCTCOUNT
+- C. COUNTA
+- D. ALL uniquement
 
 ---
 
@@ -402,10 +402,10 @@ D. ALL uniquement
 
 À quoi sert principalement la fonction `ALL` dans un calcul DAX ?
 
-A. Retirer un filtre pour obtenir un total de référence
-B. Additionner une colonne numérique
-C. Calculer une moyenne simple
-D. Changer le nom d’une table
+- A. Retirer un filtre pour obtenir un total de référence
+- B. Additionner une colonne numérique
+- C. Calculer une moyenne simple
+- D. Changer le nom d’une table
 
 ---
 
@@ -415,10 +415,10 @@ On souhaite calculer la part de chaque région dans le chiffre d’affaires tota
 
 Quelle logique est correcte ?
 
-A. Diviser les ventes de la région par le total de toutes les régions
-B. Additionner uniquement les régions sans ventes
-C. Multiplier chaque région par son nom
-D. Compter le nombre de colonnes de la table
+- A. Diviser les ventes de la région par le total de toutes les régions
+- B. Additionner uniquement les régions sans ventes
+- C. Multiplier chaque région par son nom
+- D. Compter le nombre de colonnes de la table
 
 ---
 
@@ -426,10 +426,10 @@ D. Compter le nombre de colonnes de la table
 
 Quel est le rôle de la fonction `FILTER` ?
 
-A. Retourner une table filtrée selon une condition
-B. Transformer un nombre en pourcentage
-C. Supprimer une source de données
-D. Modifier le type d’un fichier CSV
+- A. Retourner une table filtrée selon une condition
+- B. Transformer un nombre en pourcentage
+- C. Supprimer une source de données
+- D. Modifier le type d’un fichier CSV
 
 ---
 
@@ -437,10 +437,10 @@ D. Modifier le type d’un fichier CSV
 
 Quelle formule exprime correctement une condition simple ?
 
-A. `IF([TotalVentes] >= [ObjectifVentes], "Objectif atteint", "Objectif non atteint")`
-B. `SUM([Objectif atteint])`
-C. `ALL("Objectif atteint")`
-D. `COUNT("Objectif atteint", "Objectif non atteint")`
+- A. `IF([TotalVentes] >= [ObjectifVentes], "Objectif atteint", "Objectif non atteint")`
+- B. `SUM([Objectif atteint])`
+- C. `ALL("Objectif atteint")`
+- D. `COUNT("Objectif atteint", "Objectif non atteint")`
 
 ---
 
@@ -448,10 +448,10 @@ D. `COUNT("Objectif atteint", "Objectif non atteint")`
 
 Pourquoi utiliser `SWITCH(TRUE(), ...)` dans une mesure DAX ?
 
-A. Pour gérer plusieurs conditions de manière plus lisible que plusieurs IF imbriqués
-B. Pour remplacer Power Query
-C. Pour créer une relation automatique entre deux tables
-D. Pour importer des fichiers depuis SharePoint
+- A. Pour gérer plusieurs conditions de manière plus lisible que plusieurs IF imbriqués
+- B. Pour remplacer Power Query
+- C. Pour créer une relation automatique entre deux tables
+- D. Pour importer des fichiers depuis SharePoint
 
 ---
 
@@ -459,7 +459,7 @@ D. Pour importer des fichiers depuis SharePoint
 
 Quelle mesure calcule correctement le chiffre d’affaires à partir de `Quantité` et `PrixUnitaire` ?
 
-A.
+- A.
 
 ```DAX
 ChiffreAffaires =
@@ -469,21 +469,21 @@ SUMX(
 )
 ```
 
-B.
+- B.
 
 ```DAX
 ChiffreAffaires =
 DISTINCTCOUNT(Ventes[Produit])
 ```
 
-C.
+- C.
 
 ```DAX
 ChiffreAffaires =
 AVERAGE(Ventes[ClientID])
 ```
 
-D.
+- D.
 
 ```DAX
 ChiffreAffaires =
@@ -496,7 +496,7 @@ ALL(Ventes[Région])
 
 Quelle mesure calcule correctement le coût total à partir de `Quantité` et `CoutUnitaire` ?
 
-A.
+- A.
 
 ```DAX
 CoutTotal =
@@ -506,21 +506,21 @@ SUMX(
 )
 ```
 
-B.
+- B.
 
 ```DAX
 CoutTotal =
 COUNT(Ventes[Produit])
 ```
 
-C.
+- C.
 
 ```DAX
 CoutTotal =
 ALL(Ventes[Date])
 ```
 
-D.
+- D.
 
 ```DAX
 CoutTotal =
@@ -533,25 +533,25 @@ AVERAGE(Ventes[Région])
 
 Si `[ChiffreAffaires]` et `[CoutTotal]` existent déjà comme mesures, quelle formule calcule correctement la marge ?
 
-A.
+- A.
 
 ```DAX
 Marge = [ChiffreAffaires] - [CoutTotal]
 ```
 
-B.
+- B.
 
 ```DAX
 Marge = [ChiffreAffaires] + [CoutTotal]
 ```
 
-C.
+- C.
 
 ```DAX
 Marge = DISTINCTCOUNT(Ventes[ClientID])
 ```
 
-D.
+- D.
 
 ```DAX
 Marge = ALL(Ventes[Produit])
@@ -563,7 +563,7 @@ Marge = ALL(Ventes[Produit])
 
 Quelle mesure calcule correctement le taux de marge ?
 
-A.
+- A.
 
 ```DAX
 TauxMarge =
@@ -574,21 +574,21 @@ DIVIDE(
 )
 ```
 
-B.
+- B.
 
 ```DAX
 TauxMarge =
 SUM(Ventes[Produit])
 ```
 
-C.
+- C.
 
 ```DAX
 TauxMarge =
 COUNT(Ventes[Région])
 ```
 
-D.
+- D.
 
 ```DAX
 TauxMarge =
@@ -603,7 +603,7 @@ Le panier moyen correspond au chiffre d’affaires moyen généré par client di
 
 Quelle formule est la plus appropriée ?
 
-A.
+- A.
 
 ```DAX
 PanierMoyen =
@@ -614,21 +614,21 @@ DIVIDE(
 )
 ```
 
-B.
+- B.
 
 ```DAX
 PanierMoyen =
 SUM(Ventes[ClientID])
 ```
 
-C.
+- C.
 
 ```DAX
 PanierMoyen =
 ALL(Ventes[Produit])
 ```
 
-D.
+- D.
 
 ```DAX
 PanierMoyen =
@@ -641,28 +641,28 @@ COUNT(Ventes[Date])
 
 Une table contient plusieurs ventes par client. Quelle mesure compte correctement le nombre de clients différents ?
 
-A.
+- A.
 
 ```DAX
 NombreClients =
 DISTINCTCOUNT(Ventes[ClientID])
 ```
 
-B.
+- B.
 
 ```DAX
 NombreClients =
 SUM(Ventes[ClientID])
 ```
 
-C.
+- C.
 
 ```DAX
 NombreClients =
 AVERAGE(Ventes[ClientID])
 ```
 
-D.
+- D.
 
 ```DAX
 NombreClients =
@@ -687,10 +687,10 @@ DIVIDE(
 )
 ```
 
-A. Elle calcule la part de la région actuelle dans le chiffre d’affaires total
-B. Elle supprime définitivement les régions de la table
-C. Elle transforme chaque région en client
-D. Elle calcule uniquement la moyenne des dates
+- A. Elle calcule la part de la région actuelle dans le chiffre d’affaires total
+- B. Elle supprime définitivement les régions de la table
+- C. Elle transforme chaque région en client
+- D. Elle calcule uniquement la moyenne des dates
 
 ---
 
@@ -698,10 +698,10 @@ D. Elle calcule uniquement la moyenne des dates
 
 Pour calculer les ventes de l’année précédente avec `SAMEPERIODLASTYEAR`, quel élément est fortement recommandé dans le modèle Power BI ?
 
-A. Une table de dates correctement reliée à la table de faits
-B. Une colonne texte sans relation
-C. Une mesure implicite uniquement
-D. Une table sans clé ni date
+- A. Une table de dates correctement reliée à la table de faits
+- B. Une colonne texte sans relation
+- C. Une mesure implicite uniquement
+- D. Une table sans clé ni date
 
 ---
 
@@ -709,28 +709,28 @@ D. Une table sans clé ni date
 
 Si `[ChiffreAffaires]` représente les ventes actuelles et `[VentesAnneePrecedente]` représente les ventes de l’année précédente, quelle formule calcule la croissance en valeur ?
 
-A.
+- A.
 
 ```DAX
 CroissanceValeur =
 [ChiffreAffaires] - [VentesAnneePrecedente]
 ```
 
-B.
+- B.
 
 ```DAX
 CroissanceValeur =
 [ChiffreAffaires] + [VentesAnneePrecedente]
 ```
 
-C.
+- C.
 
 ```DAX
 CroissanceValeur =
 DISTINCTCOUNT(Ventes[ClientID])
 ```
 
-D.
+- D.
 
 ```DAX
 CroissanceValeur =
@@ -743,7 +743,7 @@ ALL('Date'[Date])
 
 Quelle formule calcule correctement une croissance en pourcentage ?
 
-A.
+- A.
 
 ```DAX
 CroissancePourcentage =
@@ -754,21 +754,21 @@ DIVIDE(
 )
 ```
 
-B.
+- B.
 
 ```DAX
 CroissancePourcentage =
 SUM(Ventes[Produit])
 ```
 
-C.
+- C.
 
 ```DAX
 CroissancePourcentage =
 COUNT(Ventes[Région])
 ```
 
-D.
+- D.
 
 ```DAX
 CroissancePourcentage =
@@ -781,10 +781,10 @@ ALL(Ventes[Montant])
 
 Pourquoi est-il recommandé de créer des mesures de base comme `[ChiffreAffaires]` et `[CoutTotal]`, puis des mesures dérivées comme `[Marge]` et `[TauxMarge]` ?
 
-A. Pour rendre les calculs plus lisibles, réutilisables et faciles à maintenir
-B. Pour empêcher les filtres de fonctionner
-C. Pour éviter d’utiliser le modèle de données
-D. Pour rendre les visualisations impossibles à modifier
+- A. Pour rendre les calculs plus lisibles, réutilisables et faciles à maintenir
+- B. Pour empêcher les filtres de fonctionner
+- C. Pour éviter d’utiliser le modèle de données
+- D. Pour rendre les visualisations impossibles à modifier
 
 ---
 
@@ -792,10 +792,10 @@ D. Pour rendre les visualisations impossibles à modifier
 
 Quel nom de mesure est le plus professionnel et le plus clair ?
 
-A. `Mesure1`
-B. `TestCalcul`
-C. `TauxMarge`
-D. `ABC123`
+- A. `Mesure1`
+- B. `TestCalcul`
+- C. `TauxMarge`
+- D. `ABC123`
 
 ---
 
@@ -803,7 +803,7 @@ D. `ABC123`
 
 Quelle phrase résume le mieux le rôle de DAX dans Power BI ?
 
-A. DAX sert principalement à nettoyer les fichiers avant leur importation
-B. DAX sert à calculer des indicateurs analytiques qui donnent du sens aux données dans un rapport Power BI
-C. DAX sert uniquement à modifier les couleurs des graphiques
-D. DAX remplace complètement Power BI, Power Query et le modèle de données
+- A. DAX sert principalement à nettoyer les fichiers avant leur importation
+- B. DAX sert à calculer des indicateurs analytiques qui donnent du sens aux données dans un rapport Power BI
+- C. DAX sert uniquement à modifier les couleurs des graphiques
+- D. DAX remplace complètement Power BI, Power Query et le modèle de données
