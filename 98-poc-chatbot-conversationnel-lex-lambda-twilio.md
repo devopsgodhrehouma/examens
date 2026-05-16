@@ -1014,8 +1014,6 @@ Le projet doit être simple, mais fonctionnel. L’objectif est de démontrer vo
 
 Je ferais seulement une petite amélioration : préciser que le **fichier CSV peut être intégré dans Lambda ou placé dans S3**. Comme ça, l’architecture reste correcte pour une version simple et pour une version plus professionnelle.
 
-Voici la version propre que tu peux intégrer directement dans l’énoncé.
-
 ---
 
 # Architecture générale du POC
