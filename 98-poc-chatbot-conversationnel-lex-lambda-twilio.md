@@ -1000,3 +1000,96 @@ Votre démonstration doit montrer clairement :
 ```
 
 Le projet doit être simple, mais fonctionnel. L’objectif est de démontrer votre compréhension de l’intégration entre un chatbot, une fonction serverless et une source de données externe simple.
+
+
+
+<br/>
+
+# Annexe 1 - Architecture 2
+
+
+1. **Test direct dans Amazon Lex**
+2. **Amazon Connect pour le vocal / téléphone**
+3. **Twilio pour SMS / messagerie**
+
+Je ferais seulement une petite amélioration : préciser que le **fichier CSV peut être intégré dans Lambda ou placé dans S3**. Comme ça, l’architecture reste correcte pour une version simple et pour une version plus professionnelle.
+
+Voici la version propre que tu peux intégrer directement dans l’énoncé.
+
+---
+
+# Architecture générale du POC
+
+Votre POC doit respecter l’architecture générale suivante. L’utilisateur peut interagir avec le chatbot de trois façons : directement dans Amazon Lex, par appel vocal avec Amazon Connect, ou par message texte avec Twilio.
+
+```text
+                         ┌─────────────────────────────┐
+                         │        Utilisateur           │
+                         └──────────────┬──────────────┘
+                                        │
+          ┌─────────────────────────────┼─────────────────────────────┐
+          │                             │                             │
+          ▼                             ▼                             ▼
+┌───────────────────┐       ┌──────────────────────┐       ┌──────────────────────┐
+│ Test direct dans  │       │ Amazon Connect        │       │ Twilio               │
+│ Amazon Lex        │       │ Appel vocal / IVR     │       │ SMS / Messagerie     │
+│ Texte ou voix     │       │ Téléphone             │       │ Message texte        │
+└─────────┬─────────┘       └──────────┬───────────┘       └──────────┬───────────┘
+          │                            │                              │
+          └────────────────────────────┼──────────────────────────────┘
+                                       ▼
+                            ┌──────────────────────┐
+                            │ Amazon Lex V2         │
+                            │ Chatbot conversationnel│
+                            │ Intentions / Slots    │
+                            │ Compréhension langage │
+                            └──────────┬───────────┘
+                                       ▼
+                            ┌──────────────────────┐
+                            │ AWS Lambda            │
+                            │ Logique métier        │
+                            │ Recherche de réponse  │
+                            └──────────┬───────────┘
+                                       ▼
+                            ┌──────────────────────┐
+                            │ Fichier CSV           │
+                            │ Base de connaissances │
+                            │ FAQ / prix / services │
+                            │ CSV intégré ou S3     │
+                            └──────────┬───────────┘
+                                       ▼
+                            ┌──────────────────────┐
+                            │ Réponse trouvée       │
+                            │ et retournée à Lex    │
+                            └──────────┬───────────┘
+                                       ▼
+          ┌────────────────────────────┼──────────────────────────────┐
+          │                            │                              │
+          ▼                            ▼                              ▼
+┌───────────────────┐       ┌──────────────────────┐       ┌──────────────────────┐
+│ Réponse affichée  │       │ Réponse vocale        │       │ Réponse texte        │
+│ dans Amazon Lex   │       │ via Amazon Connect    │       │ via Twilio           │
+└───────────────────┘       └──────────────────────┘       └──────────────────────┘
+```
+
+## Lecture de l’architecture
+
+L’utilisateur commence par poser une question. Cette question peut être saisie directement dans Amazon Lex, prononcée par téléphone avec Amazon Connect, ou envoyée par message texte avec Twilio.
+
+Dans tous les cas, la demande arrive dans **Amazon Lex V2**. Amazon Lex analyse la phrase, détecte l’intention de l’utilisateur et extrait les informations importantes à l’aide des slots.
+
+Ensuite, Amazon Lex appelle une fonction **AWS Lambda**. Cette fonction contient la logique métier du POC. Elle récupère la question ou le mot-clé, cherche la réponse correspondante dans le fichier CSV, puis retourne la réponse à Amazon Lex.
+
+Enfin, Amazon Lex renvoie la réponse vers le canal d’origine : affichage direct dans Lex, réponse vocale via Amazon Connect, ou réponse texte via Twilio.
+
+## Exigence minimale
+
+Vous devez tester votre chatbot directement dans Amazon Lex, puis le connecter à au moins **un canal externe** :
+
+```text
+Amazon Connect pour le vocal
+ou
+Twilio pour SMS / messagerie
+```
+
+Vous pouvez réaliser les deux intégrations pour obtenir une démonstration plus complète.
