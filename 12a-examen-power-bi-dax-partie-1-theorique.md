@@ -5,7 +5,7 @@
 <p><strong>Groupe :</strong> _________________________</p>
 <p><strong>Date :</strong> ___________________________</p>
 
-<p><strong>Durée suggérée :</strong> 1 h 30</p>
+<p><strong>Durée suggérée :</strong> 3h</p>
 <p><strong>Total :</strong> 100 points</p>
 <p><strong>Barème :</strong> 2 points par bonne réponse</p>
 
