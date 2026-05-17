@@ -1,688 +1,546 @@
-# Examen théorique — Power BI et DAX
+<h1>Examen théorique — Power BI et DAX</h1>
 
-**Nom :** ___________________________
-**Prénom :** ________________________
-**Groupe :** _________________________
-**Date :** ___________________________
+<p><strong>Nom :</strong> ___________________________</p>
+<p><strong>Prénom :</strong> ________________________</p>
+<p><strong>Groupe :</strong> _________________________</p>
+<p><strong>Date :</strong> ___________________________</p>
 
-**Durée suggérée :** 1 h 30
-**Total :** 100 points
-**Barème :** 2 points par bonne réponse
+<p><strong>Durée suggérée :</strong> 1 h 30</p>
+<p><strong>Total :</strong> 100 points</p>
+<p><strong>Barème :</strong> 2 points par bonne réponse</p>
 
-## Consignes
+<h2>Consignes</h2>
 
-Pour chaque numéro, choisissez une seule bonne réponse parmi A, B, C ou D.
+<p>Pour chaque numéro, choisissez une seule bonne réponse parmi A, B, C ou D.</p>
 
----
+<hr/>
 
-# Partie 1 — Power BI, Power Query et modèle de données
+<h2>Partie 1 — Power BI, Power Query et modèle de données</h2>
 
-## 1.
-
-Dans Power BI, le rôle principal de Power Query est de :
-
-A. Créer des mesures DAX
-
-B. Nettoyer, transformer et préparer les données
-
-C. Créer uniquement des graphiques
-
+<h3>1.</h3>
+<p>Dans Power BI, le rôle principal de Power Query est de :</p>
+<p>
+A. Créer des mesures DAX<br/>
+B. Nettoyer, transformer et préparer les données<br/>
+C. Créer uniquement des graphiques<br/>
 D. Publier automatiquement le rapport
+</p>
 
----
+<hr/>
 
-## 2.
-
-Dans un projet Power BI, DAX intervient généralement :
-
-A. Avant l’importation des données
-
-B. Après la préparation des données et la création du modèle
-
-C. Avant Power Query
-
+<h3>2.</h3>
+<p>Dans un projet Power BI, DAX intervient généralement :</p>
+<p>
+A. Avant l’importation des données<br/>
+B. Après la préparation des données et la création du modèle<br/>
+C. Avant Power Query<br/>
 D. Uniquement lors de l’installation de Power BI
+</p>
 
----
+<hr/>
 
-## 3.
-
-Quelle affirmation est correcte ?
-
-A. Power Query sert à créer les indicateurs métier
-
-B. DAX sert uniquement à nettoyer les données
-
-C. Le modèle de données organise les relations entre les tables
-
+<h3>3.</h3>
+<p>Quelle affirmation est correcte ?</p>
+<p>
+A. Power Query sert à créer les indicateurs métier<br/>
+B. DAX sert uniquement à nettoyer les données<br/>
+C. Le modèle de données organise les relations entre les tables<br/>
 D. Les visualisations remplacent les mesures DAX
+</p>
 
----
+<hr/>
 
-## 4.
-
-Une source de données dans Power BI peut être :
-
-A. Seulement un fichier Excel
-
-B. Seulement une base SQL
-
-C. Excel, CSV, SQL, SharePoint, API ou autre source
-
+<h3>4.</h3>
+<p>Une source de données dans Power BI peut être :</p>
+<p>
+A. Seulement un fichier Excel<br/>
+B. Seulement une base SQL<br/>
+C. Excel, CSV, SQL, SharePoint, API ou autre source<br/>
 D. Seulement un fichier PowerPoint
+</p>
 
----
+<hr/>
 
-## 5.
-
-La correction du type d’une colonne de date doit généralement être faite dans :
-
-A. Power Query
-
-B. Le menu des couleurs
-
-C. Le titre du rapport
-
+<h3>5.</h3>
+<p>La correction du type d’une colonne de date doit généralement être faite dans :</p>
+<p>
+A. Power Query<br/>
+B. Le menu des couleurs<br/>
+C. Le titre du rapport<br/>
 D. La légende d’un graphique
+</p>
 
----
+<hr/>
 
-## 6.
-
-Le modèle de données sert principalement à :
-
-A. Modifier le logo du rapport
-
-B. Organiser les tables et leurs relations
-
-C. Supprimer Power Query
-
+<h3>6.</h3>
+<p>Le modèle de données sert principalement à :</p>
+<p>
+A. Modifier le logo du rapport<br/>
+B. Organiser les tables et leurs relations<br/>
+C. Supprimer Power Query<br/>
 D. Remplacer les graphiques
+</p>
 
----
+<hr/>
 
-## 7.
-
-Une relation entre une table `Ventes` et une table `Date` permet surtout de :
-
-A. Faire des analyses temporelles fiables
-
-B. Changer automatiquement les couleurs
-
-C. Supprimer les mesures
-
+<h3>7.</h3>
+<p>Une relation entre une table <code>Ventes</code> et une table <code>Date</code> permet surtout de :</p>
+<p>
+A. Faire des analyses temporelles fiables<br/>
+B. Changer automatiquement les couleurs<br/>
+C. Supprimer les mesures<br/>
 D. Compresser le fichier Power BI
+</p>
 
----
+<hr/>
 
-## 8.
-
-Quelle phrase résume correctement l’architecture Power BI ?
-
-A. DAX prépare les données, Power Query affiche les graphiques
-
-B. Power Query prépare les données, le modèle organise les tables, DAX calcule les indicateurs
-
-C. Les visualisations nettoient les données
-
+<h3>8.</h3>
+<p>Quelle phrase résume correctement l’architecture Power BI ?</p>
+<p>
+A. DAX prépare les données, Power Query affiche les graphiques<br/>
+B. Power Query prépare les données, le modèle organise les tables, DAX calcule les indicateurs<br/>
+C. Les visualisations nettoient les données<br/>
 D. Le modèle de données remplace Power Query
+</p>
 
----
+<hr/>
 
-## 9.
-
-Une bonne pratique consiste à faire le nettoyage des données dans :
-
-A. Les visualisations
-
-B. Power Query
-
-C. Les segments
-
+<h3>9.</h3>
+<p>Une bonne pratique consiste à faire le nettoyage des données dans :</p>
+<p>
+A. Les visualisations<br/>
+B. Power Query<br/>
+C. Les segments<br/>
 D. Les cartes KPI
+</p>
 
----
+<hr/>
 
-## 10.
-
-Dans un rapport Power BI professionnel, les visualisations servent principalement à :
-
-A. Préparer les données brutes
-
-B. Présenter les résultats de manière claire
-
-C. Créer les relations entre les tables
-
+<h3>10.</h3>
+<p>Dans un rapport Power BI professionnel, les visualisations servent principalement à :</p>
+<p>
+A. Préparer les données brutes<br/>
+B. Présenter les résultats de manière claire<br/>
+C. Créer les relations entre les tables<br/>
 D. Installer les connecteurs
+</p>
 
----
+<hr/>
 
-# Partie 2 — DAX et indicateurs analytiques
+<h2>Partie 2 — DAX et indicateurs analytiques</h2>
 
-## 11.
-
-DAX signifie :
-
-A. Data Automatic Extension
-
-B. Data Analysis Expressions
-
-C. Data Access Explorer
-
+<h3>11.</h3>
+<p>DAX signifie :</p>
+<p>
+A. Data Automatic Extension<br/>
+B. Data Analysis Expressions<br/>
+C. Data Access Explorer<br/>
 D. Dynamic Application Excel
+</p>
 
----
+<hr/>
 
-## 12.
-
-Le rôle principal de DAX est de :
-
-A. Créer des calculs et des indicateurs analytiques
-
-B. Supprimer les fichiers inutiles
-
-C. Installer Power BI Desktop
-
+<h3>12.</h3>
+<p>Le rôle principal de DAX est de :</p>
+<p>
+A. Créer des calculs et des indicateurs analytiques<br/>
+B. Supprimer les fichiers inutiles<br/>
+C. Installer Power BI Desktop<br/>
 D. Remplacer complètement Power Query
+</p>
 
----
+<hr/>
 
-## 13.
-
-Un rapport sans DAX peut être limité parce que :
-
-A. Il ne peut jamais afficher de graphique
-
-B. Il ne peut pas toujours représenter la logique métier précise
-
-C. Il ne peut pas importer de fichiers CSV
-
+<h3>13.</h3>
+<p>Un rapport sans DAX peut être limité parce que :</p>
+<p>
+A. Il ne peut jamais afficher de graphique<br/>
+B. Il ne peut pas toujours représenter la logique métier précise<br/>
+C. Il ne peut pas importer de fichiers CSV<br/>
 D. Il ne peut pas contenir de tableau
+</p>
 
----
+<hr/>
 
-## 14.
-
-Une mesure DAX permet principalement de :
-
-A. Calculer une valeur dynamique selon le contexte
-
-B. Modifier le nom d’un fichier source
-
-C. Supprimer une base de données
-
+<h3>14.</h3>
+<p>Une mesure DAX permet principalement de :</p>
+<p>
+A. Calculer une valeur dynamique selon le contexte<br/>
+B. Modifier le nom d’un fichier source<br/>
+C. Supprimer une base de données<br/>
 D. Changer le mot de passe Power BI
+</p>
 
----
+<hr/>
 
-## 15.
-
-Une donnée brute représente généralement :
-
-A. Une information enregistrée dans un système
-
-B. Une mesure DAX toujours complète
-
-C. Une visualisation déjà interprétée
-
+<h3>15.</h3>
+<p>Une donnée brute représente généralement :</p>
+<p>
+A. Une information enregistrée dans un système<br/>
+B. Une mesure DAX toujours complète<br/>
+C. Une visualisation déjà interprétée<br/>
 D. Un rapport finalisé
+</p>
 
----
+<hr/>
 
-## 16.
-
-Un indicateur métier est utile parce qu’il permet de :
-
-A. Transformer des données en information exploitable
-
-B. Supprimer automatiquement les erreurs humaines
-
-C. Empêcher les filtres de fonctionner
-
+<h3>16.</h3>
+<p>Un indicateur métier est utile parce qu’il permet de :</p>
+<p>
+A. Transformer des données en information exploitable<br/>
+B. Supprimer automatiquement les erreurs humaines<br/>
+C. Empêcher les filtres de fonctionner<br/>
 D. Remplacer toutes les tables
+</p>
 
----
+<hr/>
 
-## 17.
-
-Parmi les exemples suivants, lequel est un indicateur analytique ?
-
-A. Le nom du fichier Power BI
-
-B. Le taux de marge
-
-C. La couleur du graphique
-
+<h3>17.</h3>
+<p>Parmi les exemples suivants, lequel est un indicateur analytique ?</p>
+<p>
+A. Le nom du fichier Power BI<br/>
+B. Le taux de marge<br/>
+C. La couleur du graphique<br/>
 D. La taille de la page
+</p>
 
----
+<hr/>
 
-## 18.
-
-Quel indicateur permet de mesurer le revenu généré par les ventes ?
-
-A. Le coût total
-
-B. Le chiffre d’affaires
-
-C. Le nombre de colonnes
-
+<h3>18.</h3>
+<p>Quel indicateur permet de mesurer le revenu généré par les ventes ?</p>
+<p>
+A. Le coût total<br/>
+B. Le chiffre d’affaires<br/>
+C. Le nombre de colonnes<br/>
 D. Le nom de la table
+</p>
 
----
+<hr/>
 
-## 19.
-
-Quel indicateur permet d’évaluer la rentabilité en pourcentage ?
-
-A. Le taux de marge
-
-B. Le nombre de pages
-
-C. Le format de date
-
+<h3>19.</h3>
+<p>Quel indicateur permet d’évaluer la rentabilité en pourcentage ?</p>
+<p>
+A. Le taux de marge<br/>
+B. Le nombre de pages<br/>
+C. Le format de date<br/>
 D. La police du titre
+</p>
 
----
+<hr/>
 
-## 20.
-
-Pourquoi DAX est-il important dans un rapport analytique ?
-
-A. Parce qu’il permet de créer des indicateurs dynamiques
-
-B. Parce qu’il interdit les graphiques
-
-C. Parce qu’il remplace les données
-
+<h3>20.</h3>
+<p>Pourquoi DAX est-il important dans un rapport analytique ?</p>
+<p>
+A. Parce qu’il permet de créer des indicateurs dynamiques<br/>
+B. Parce qu’il interdit les graphiques<br/>
+C. Parce qu’il remplace les données<br/>
 D. Parce qu’il supprime les segments
+</p>
 
----
+<hr/>
 
-# Partie 3 — Mesures, colonnes calculées et tables calculées
+<h2>Partie 3 — Mesures, colonnes calculées et tables calculées</h2>
 
-## 21.
-
-Une mesure DAX est généralement :
-
-A. Dynamique et sensible aux filtres
-
-B. Toujours fixe et indépendante du rapport
-
-C. Une colonne obligatoire dans la source
-
+<h3>21.</h3>
+<p>Une mesure DAX est généralement :</p>
+<p>
+A. Dynamique et sensible aux filtres<br/>
+B. Toujours fixe et indépendante du rapport<br/>
+C. Une colonne obligatoire dans la source<br/>
 D. Une image dans le rapport
+</p>
 
----
+<hr/>
 
-## 22.
-
-Une colonne calculée est généralement calculée :
-
-A. Ligne par ligne
-
-B. Seulement dans une carte KPI
-
-C. Seulement après la publication du rapport
-
+<h3>22.</h3>
+<p>Une colonne calculée est généralement calculée :</p>
+<p>
+A. Ligne par ligne<br/>
+B. Seulement dans une carte KPI<br/>
+C. Seulement après la publication du rapport<br/>
 D. Sans utiliser de table
+</p>
 
----
+<hr/>
 
-## 23.
-
-Une table calculée permet de :
-
-A. Créer une nouvelle table à partir d’une expression DAX
-
-B. Modifier les couleurs du rapport
-
-C. Supprimer les relations
-
+<h3>23.</h3>
+<p>Une table calculée permet de :</p>
+<p>
+A. Créer une nouvelle table à partir d’une expression DAX<br/>
+B. Modifier les couleurs du rapport<br/>
+C. Supprimer les relations<br/>
 D. Remplacer Power BI Desktop
+</p>
 
----
+<hr/>
 
-## 24.
-
-Quel élément est recommandé pour créer un KPI qui change selon les filtres ?
-
-A. Une mesure
-
-B. Une image
-
-C. Une page vide
-
+<h3>24.</h3>
+<p>Quel élément est recommandé pour créer un KPI qui change selon les filtres ?</p>
+<p>
+A. Une mesure<br/>
+B. Une image<br/>
+C. Une page vide<br/>
 D. Une colonne supprimée
+</p>
 
----
+<hr/>
 
-## 25.
-
-Quand faut-il généralement privilégier une mesure plutôt qu’une colonne calculée ?
-
-A. Quand le calcul doit réagir aux filtres du rapport
-
-B. Quand le calcul doit être un texte fixe
-
-C. Quand on veut supprimer les données
-
+<h3>25.</h3>
+<p>Quand faut-il généralement privilégier une mesure plutôt qu’une colonne calculée ?</p>
+<p>
+A. Quand le calcul doit réagir aux filtres du rapport<br/>
+B. Quand le calcul doit être un texte fixe<br/>
+C. Quand on veut supprimer les données<br/>
 D. Quand on veut modifier le thème Power BI
+</p>
 
----
+<hr/>
 
-## 26.
+<h3>26.</h3>
+<p>La formule suivante représente plutôt :</p>
 
-La formule suivante représente plutôt :
+<pre><code>MontantLigne = Ventes[Quantité] * Ventes[PrixUnitaire]</code></pre>
 
-```DAX
-MontantLigne = Ventes[Quantité] * Ventes[PrixUnitaire]
-```
-
-A. Une colonne calculée ligne par ligne
-
-B. Un segment
-
-C. Une relation entre tables
-
+<p>
+A. Une colonne calculée ligne par ligne<br/>
+B. Un segment<br/>
+C. Une relation entre tables<br/>
 D. Un filtre de page
+</p>
 
----
+<hr/>
 
-## 27.
+<h3>27.</h3>
+<p>La formule suivante représente plutôt :</p>
 
-La formule suivante représente plutôt :
+<pre><code>TotalVentes = SUM(Ventes[Montant])</code></pre>
 
-```DAX
-TotalVentes = SUM(Ventes[Montant])
-```
-
-A. Une mesure
-
-B. Une image
-
-C. Une source CSV
-
+<p>
+A. Une mesure<br/>
+B. Une image<br/>
+C. Une source CSV<br/>
 D. Une relation inactive
+</p>
 
----
+<hr/>
 
-## 28.
+<h3>28.</h3>
+<p>Dans un rapport professionnel, il est préférable de nommer une mesure :</p>
+<p>
+A. Mesure1<br/>
+B. Calcul2<br/>
+C. TauxMarge<br/>
+D. Test
+</p>
 
-Dans un rapport professionnel, il est préférable de nommer une mesure :
+<hr/>
 
-A. `Mesure1`
-
-B. `Calcul2`
-
-C. `TauxMarge`
-
-D. `Test`
-
----
-
-## 29.
-
-Une bonne organisation des mesures consiste à :
-
-A. Créer des mesures de base puis des mesures dérivées
-
-B. Tout mettre dans une seule formule très longue
-
-C. Ne jamais nommer les mesures
-
+<h3>29.</h3>
+<p>Une bonne organisation des mesures consiste à :</p>
+<p>
+A. Créer des mesures de base puis des mesures dérivées<br/>
+B. Tout mettre dans une seule formule très longue<br/>
+C. Ne jamais nommer les mesures<br/>
 D. Supprimer les indicateurs après création
+</p>
 
----
+<hr/>
 
-## 30.
-
-Pourquoi les mesures explicites sont-elles recommandées ?
-
-A. Elles sont claires, réutilisables et maintenables
-
-B. Elles empêchent les filtres de fonctionner
-
-C. Elles remplacent tous les fichiers sources
-
+<h3>30.</h3>
+<p>Pourquoi les mesures explicites sont-elles recommandées ?</p>
+<p>
+A. Elles sont claires, réutilisables et maintenables<br/>
+B. Elles empêchent les filtres de fonctionner<br/>
+C. Elles remplacent tous les fichiers sources<br/>
 D. Elles ne peuvent pas être utilisées dans les visuels
-
----
-
-# Partie 4 — Fonctions DAX fondamentales
-
-## 31.
-
-Quelle fonction DAX additionne les valeurs d’une colonne numérique ?
-
-A. `SUM()`
-
-B. `COUNT()`
-
-C. `FORMAT()`
-
-D. `IF()`
-
----
-
-## 32.
-
-Quelle fonction DAX calcule une moyenne ?
-
-A. `SUM()`
-
-B. `AVERAGE()`
-
-C. `DISTINCTCOUNT()`
-
-D. `ALL()`
-
----
-
-## 33.
-
-Quelle fonction DAX compte les valeurs distinctes ?
-
-A. `COUNT()`
-
-B. `COUNTA()`
-
-C. `DISTINCTCOUNT()`
-
-D. `SUMX()`
-
----
-
-## 34.
-
-Quelle fonction DAX est recommandée pour éviter les problèmes de division par zéro ?
-
-A. `DIVIDE()`
-
-B. `SUM()`
-
-C. `MONTH()`
-
-D. `YEAR()`
-
----
-
-## 35.
-
-Quelle fonction DAX permet de parcourir une table ligne par ligne et d’additionner les résultats ?
-
-A. `SUMX()`
-
-B. `COUNT()`
-
-C. `ALL()`
-
-D. `FORMAT()`
-
----
-
-## 36.
-
-Quelle fonction DAX permet de modifier le contexte de filtre ?
-
-A. `CALCULATE()`
-
-B. `SUM()`
-
-C. `COUNT()`
-
-D. `AVERAGE()`
-
----
-
-## 37.
-
-Quelle fonction DAX permet souvent de retirer un filtre dans un calcul ?
-
-A. `ALL()`
-
-B. `IF()`
-
-C. `SWITCH()`
-
-D. `COUNTA()`
-
----
-
-## 38.
-
-Quelle formule est correcte pour calculer le chiffre d’affaires ?
-
-A. `SUM(Ventes[Produit])`
-
-B. `SUMX(Ventes, Ventes[Quantité] * Ventes[PrixUnitaire])`
-
-C. `COUNT(Ventes[Région])`
-
-D. `AVERAGE(Ventes[ClientID])`
-
----
-
-## 39.
-
-Quelle formule est correcte pour calculer le coût total ?
-
-A. `SUMX(Ventes, Ventes[Quantité] * Ventes[CoutUnitaire])`
-
-B. `COUNT(Ventes[Produit])`
-
-C. `SUM(Ventes[Région])`
-
-D. `FORMAT(Ventes[Date], "mmmm")`
-
----
-
-## 40.
-
-Quelle formule est correcte pour calculer la marge ?
-
-A. `[ChiffreAffaires] + [CoutTotal]`
-
-B. `[CoutTotal] - [ChiffreAffaires]`
-
-C. `[ChiffreAffaires] - [CoutTotal]`
-
-D. `[ChiffreAffaires] * [CoutTotal]`
-
----
-
-# Partie 5 — Contexte de calcul et analyse métier
-
-## 41.
-
-Le contexte de filtre correspond à :
-
-A. L’ensemble des filtres actifs au moment du calcul
-
-B. La taille du fichier Power BI
-
-C. Le nom de l’utilisateur
-
+</p>
+
+<hr/>
+
+<h2>Partie 4 — Fonctions DAX fondamentales</h2>
+
+<h3>31.</h3>
+<p>Quelle fonction DAX additionne les valeurs d’une colonne numérique ?</p>
+<p>
+A. SUM()<br/>
+B. COUNT()<br/>
+C. FORMAT()<br/>
+D. IF()
+</p>
+
+<hr/>
+
+<h3>32.</h3>
+<p>Quelle fonction DAX calcule une moyenne ?</p>
+<p>
+A. SUM()<br/>
+B. AVERAGE()<br/>
+C. DISTINCTCOUNT()<br/>
+D. ALL()
+</p>
+
+<hr/>
+
+<h3>33.</h3>
+<p>Quelle fonction DAX compte les valeurs distinctes ?</p>
+<p>
+A. COUNT()<br/>
+B. COUNTA()<br/>
+C. DISTINCTCOUNT()<br/>
+D. SUMX()
+</p>
+
+<hr/>
+
+<h3>34.</h3>
+<p>Quelle fonction DAX est recommandée pour éviter les problèmes de division par zéro ?</p>
+<p>
+A. DIVIDE()<br/>
+B. SUM()<br/>
+C. MONTH()<br/>
+D. YEAR()
+</p>
+
+<hr/>
+
+<h3>35.</h3>
+<p>Quelle fonction DAX permet de parcourir une table ligne par ligne et d’additionner les résultats ?</p>
+<p>
+A. SUMX()<br/>
+B. COUNT()<br/>
+C. ALL()<br/>
+D. FORMAT()
+</p>
+
+<hr/>
+
+<h3>36.</h3>
+<p>Quelle fonction DAX permet de modifier le contexte de filtre ?</p>
+<p>
+A. CALCULATE()<br/>
+B. SUM()<br/>
+C. COUNT()<br/>
+D. AVERAGE()
+</p>
+
+<hr/>
+
+<h3>37.</h3>
+<p>Quelle fonction DAX permet souvent de retirer un filtre dans un calcul ?</p>
+<p>
+A. ALL()<br/>
+B. IF()<br/>
+C. SWITCH()<br/>
+D. COUNTA()
+</p>
+
+<hr/>
+
+<h3>38.</h3>
+<p>Quelle formule est correcte pour calculer le chiffre d’affaires ?</p>
+<p>
+A. SUM(Ventes[Produit])<br/>
+B. SUMX(Ventes, Ventes[Quantité] * Ventes[PrixUnitaire])<br/>
+C. COUNT(Ventes[Région])<br/>
+D. AVERAGE(Ventes[ClientID])
+</p>
+
+<hr/>
+
+<h3>39.</h3>
+<p>Quelle formule est correcte pour calculer le coût total ?</p>
+<p>
+A. SUMX(Ventes, Ventes[Quantité] * Ventes[CoutUnitaire])<br/>
+B. COUNT(Ventes[Produit])<br/>
+C. SUM(Ventes[Région])<br/>
+D. FORMAT(Ventes[Date], "mmmm")
+</p>
+
+<hr/>
+
+<h3>40.</h3>
+<p>Quelle formule est correcte pour calculer la marge ?</p>
+<p>
+A. [ChiffreAffaires] + [CoutTotal]<br/>
+B. [CoutTotal] - [ChiffreAffaires]<br/>
+C. [ChiffreAffaires] - [CoutTotal]<br/>
+D. [ChiffreAffaires] * [CoutTotal]
+</p>
+
+<hr/>
+
+<h2>Partie 5 — Contexte de calcul et analyse métier</h2>
+
+<h3>41.</h3>
+<p>Le contexte de filtre correspond à :</p>
+<p>
+A. L’ensemble des filtres actifs au moment du calcul<br/>
+B. La taille du fichier Power BI<br/>
+C. Le nom de l’utilisateur<br/>
 D. La couleur des graphiques
+</p>
 
----
+<hr/>
 
-## 42.
-
-Si une mesure `TotalVentes` est placée dans un tableau par région, elle calcule :
-
-A. Le même total général sur toutes les lignes
-
-B. Le total des ventes pour chaque région
-
-C. Le nombre de relations du modèle
-
+<h3>42.</h3>
+<p>Si une mesure <code>TotalVentes</code> est placée dans un tableau par région, elle calcule :</p>
+<p>
+A. Le même total général sur toutes les lignes<br/>
+B. Le total des ventes pour chaque région<br/>
+C. Le nombre de relations du modèle<br/>
 D. Le nombre de pages du rapport
+</p>
 
----
+<hr/>
 
-## 43.
-
-Le contexte de ligne apparaît surtout lorsque :
-
-A. Un calcul est évalué ligne par ligne
-
-B. Un rapport est publié
-
-C. Une page est renommée
-
+<h3>43.</h3>
+<p>Le contexte de ligne apparaît surtout lorsque :</p>
+<p>
+A. Un calcul est évalué ligne par ligne<br/>
+B. Un rapport est publié<br/>
+C. Une page est renommée<br/>
 D. Une couleur est changée
+</p>
 
----
+<hr/>
 
-## 44.
-
-Pourquoi une même mesure peut-elle donner des résultats différents dans une carte, un tableau ou un graphique ?
-
-A. Parce qu’elle dépend du contexte de calcul
-
-B. Parce qu’elle est toujours fausse
-
-C. Parce qu’elle ne fonctionne qu’une seule fois
-
+<h3>44.</h3>
+<p>Pourquoi une même mesure peut-elle donner des résultats différents dans une carte, un tableau ou un graphique ?</p>
+<p>
+A. Parce qu’elle dépend du contexte de calcul<br/>
+B. Parce qu’elle est toujours fausse<br/>
+C. Parce qu’elle ne fonctionne qu’une seule fois<br/>
 D. Parce qu’elle ignore toutes les tables
+</p>
 
----
+<hr/>
 
-## 45.
-
-La fonction `CALCULATE` est importante parce qu’elle permet de :
-
-A. Modifier le contexte dans lequel une mesure est calculée
-
-B. Supprimer Power Query
-
-C. Changer le format du fichier
-
+<h3>45.</h3>
+<p>La fonction CALCULATE est importante parce qu’elle permet de :</p>
+<p>
+A. Modifier le contexte dans lequel une mesure est calculée<br/>
+B. Supprimer Power Query<br/>
+C. Changer le format du fichier<br/>
 D. Remplacer les visualisations
+</p>
 
----
+<hr/>
 
-## 46.
-
-La fonction `ALL` est souvent utilisée pour calculer :
-
-A. Un pourcentage du total
-
-B. Une image de fond
-
-C. Une relation automatique
-
+<h3>46.</h3>
+<p>La fonction ALL est souvent utilisée pour calculer :</p>
+<p>
+A. Un pourcentage du total<br/>
+B. Une image de fond<br/>
+C. Une relation automatique<br/>
 D. Un nom de page
+</p>
 
----
+<hr/>
 
-## 47.
+<h3>47.</h3>
+<p>La mesure suivante sert à calculer :</p>
 
-La mesure suivante sert à calculer :
-
-```DAX
-PartRegion =
+<pre><code>PartRegion =
 DIVIDE(
     [ChiffreAffaires],
     CALCULATE(
@@ -690,57 +548,44 @@ DIVIDE(
         ALL(Ventes[Région])
     ),
     0
-)
-```
+)</code></pre>
 
-A. La contribution d’une région au chiffre d’affaires total
-
-B. Le nombre de produits vendus
-
-C. Le coût unitaire moyen
-
+<p>
+A. La contribution d’une région au chiffre d’affaires total<br/>
+B. Le nombre de produits vendus<br/>
+C. Le coût unitaire moyen<br/>
 D. Le nombre de colonnes dans la table
+</p>
 
----
+<hr/>
 
-## 48.
+<h3>48.</h3>
+<p>Dans un rapport commercial, le panier moyen peut être calculé par :</p>
+<p>
+A. ChiffreAffaires / NombreClients<br/>
+B. CoutTotal / Région<br/>
+C. Produit / Date<br/>
+D. NombrePages / NombreGraphiques
+</p>
 
-Dans un rapport commercial, le panier moyen peut être calculé par :
+<hr/>
 
-A. `ChiffreAffaires / NombreClients`
-
-B. `CoutTotal / Région`
-
-C. `Produit / Date`
-
-D. `NombrePages / NombreGraphiques`
-
----
-
-## 49.
-
-Un bon rapport Power BI doit permettre de :
-
-A. Afficher des chiffres sans interprétation
-
-B. Analyser, comparer et soutenir la décision
-
-C. Masquer tous les indicateurs
-
+<h3>49.</h3>
+<p>Un bon rapport Power BI doit permettre de :</p>
+<p>
+A. Afficher des chiffres sans interprétation<br/>
+B. Analyser, comparer et soutenir la décision<br/>
+C. Masquer tous les indicateurs<br/>
 D. Éviter toute mesure DAX
+</p>
 
----
+<hr/>
 
-## 50.
-
-Quelle phrase est la plus correcte ?
-
-A. Power BI sert seulement à faire de beaux graphiques
-
-B. DAX transforme les données brutes en indicateurs exploitables
-
-C. Power Query remplace toutes les mesures
-
+<h3>50.</h3>
+<p>Quelle phrase est la plus correcte ?</p>
+<p>
+A. Power BI sert seulement à faire de beaux graphiques<br/>
+B. DAX transforme les données brutes en indicateurs exploitables<br/>
+C. Power Query remplace toutes les mesures<br/>
 D. Les filtres empêchent l’analyse
-
-
+</p>
