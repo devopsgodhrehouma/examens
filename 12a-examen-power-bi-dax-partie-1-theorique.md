@@ -503,7 +503,58 @@ D. FORMAT(Ventes[Date], "mmmm")
 <hr/>
 
 <h3>40.</h3>
-<p>Quelle formule est correcte pour calculer la marge ?</p>
+
+<p>Une entreprise souhaite analyser la rentabilité de ses ventes dans Power BI.</p>
+
+<p>
+Le <strong>chiffre d’affaires</strong> représente l’argent généré par les ventes.
+Le <strong>coût total</strong> représente ce que les produits vendus ont coûté à l’entreprise.
+La <strong>marge</strong> correspond à ce qui reste après avoir retiré le coût total du chiffre d’affaires.
+</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr>
+<th>Produit</th>
+<th>ChiffreAffaires</th>
+<th>CoutTotal</th>
+</tr>
+<tr>
+<td>Souris</td>
+<td>60</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Clavier</td>
+<td>100</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Écran</td>
+<td>200</td>
+<td>150</td>
+</tr>
+</table>
+
+<br/>
+
+<p>Dans cet exemple, la marge se calcule ainsi :</p>
+
+<p>
+Souris : 60 - 30 = 30<br/>
+Clavier : 100 - 60 = 40<br/>
+Écran : 200 - 150 = 50
+</p>
+
+<p>
+La logique générale est donc :
+</p>
+
+<p>
+<strong>Marge = Chiffre d’affaires - Coût total</strong>
+</p>
+
+<p><strong>Quelle formule DAX est correcte pour calculer la marge ?</strong></p>
+
 <p>
 A. [ChiffreAffaires] + [CoutTotal]<br/>
 B. [CoutTotal] - [ChiffreAffaires]<br/>
