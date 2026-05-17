@@ -448,7 +448,51 @@ D. AVERAGE(Ventes[ClientID])
 <hr/>
 
 <h3>39.</h3>
-<p>Quelle formule est correcte pour calculer le coût total ?</p>
+
+<p>Une entreprise vend plusieurs produits. Chaque ligne du tableau représente une vente réalisée.</p>
+
+<p>Pour calculer le <strong>coût total</strong>, il faut multiplier la quantité vendue par le coût unitaire de chaque ligne, puis additionner tous les résultats.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr>
+<th>VenteID</th>
+<th>Produit</th>
+<th>Quantité</th>
+<th>CoutUnitaire</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Souris</td>
+<td>3</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Clavier</td>
+<td>2</td>
+<td>30</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Écran</td>
+<td>1</td>
+<td>150</td>
+</tr>
+</table>
+
+<br/>
+
+<p>Dans cet exemple, le coût total correspond à :</p>
+
+<p>
+Souris : 3 × 10 = 30<br/>
+Clavier : 2 × 30 = 60<br/>
+Écran : 1 × 150 = 150<br/>
+Coût total = 30 + 60 + 150 = 240
+</p>
+
+<p><strong>Quelle formule DAX est correcte pour calculer le coût total dans Power BI ?</strong></p>
+
 <p>
 A. SUMX(Ventes, Ventes[Quantité] * Ventes[CoutUnitaire])<br/>
 B. COUNT(Ventes[Produit])<br/>
